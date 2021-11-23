@@ -1,0 +1,130 @@
+/* CSS Document */
+
+/* Colors */
+#Black {
+    background-color:#000000;
+}
+    
+#DarkerGray {
+    background-color:#111111;
+}
+    
+#DarkGray {
+    background-color:#222222;
+}
+
+/* Button */
+#ButtonSize {
+    border:none;
+	 padding:14px 75px;
+	 text-align:center;
+	 background-color:#000000;
+	 color:white;
+	 font-size:16px
+}
+
+/* Background */
+body {
+    background-image:url('https://prod-discovery.edx-cdn.org/media/programs/card_images/e0de6882-c5d1-43f3-99e0-17e386489dca-9c3bda2df48f.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#000000;
+  color:white;
+  padding:14px 75px;;
+  font-size:16px;
+  border:none;
+}
+
+/* Container <div> - Position of the dropdown content */
+.dropdown {
+  position:relative;
+  display:inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display:none;
+  position:absolute;
+  background-color:#f1f1f1;
+  min-width:300px;
+  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1; 
+  left:-55px
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:black;
+  padding:14px 75px;
+  text-decoration:none;
+  display:block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #222222;}
+
+/* Resize Image */
+.resize {
+width:1040px;
+height:500px;
+}
+.resize {
+max-width:100%;
+max-height:auto;
+}
+
+/* Logo Button Size */
+.LogoSize {
+    display: inline-block;
+    height: 41px;
+    padding: 10
+    margin: 0;
+    vertical-align: top;
+    width: 41px;
+	 border:none;
+	 background-color:black
+}
+
+/* Logo Picture Size */
+#CompanyLogos img {
+    display:block;
+    height:40px;  
+    width:40px;
+}
+
+/* Paragraph Settings */
+p {
+    color:white;
+	 margin-left:15em;
+	 margin-right:15em;
+	 line-height: 1.5
+}
+
+/* Textbox Settings */
+#Textbox {
+	color:Gray;
+	border:none;
+	background-color:#222222;
+	width:750px;
+	height:30px;
+}
+
+/* Textbox Settings2 */
+#Textbox2 {
+	color:Gray;
+	border:none;
+	background-color:#222222;
+	width:750px;
+	height:100px;
+}
