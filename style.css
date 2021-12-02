@@ -1,15 +1,15 @@
 /* CSS Document */
 
 /* Colors */
-#Black {
+.Black {
     background-color:#000000;
 }
     
-#DarkerGray {
+.DarkerGray {
     background-color:#111111;
 }
     
-#DarkGray {
+.DarkGray {
     background-color:#222222;
 }
 
@@ -84,14 +84,42 @@ max-width:100%;
 max-height:auto;
 }
 
+.resize2 {
+width:400px;
+height:200px;
+}
+.resize2 {
+max-width:100%;
+max-height:auto;
+}
+
+.resize3 {
+width:600px;
+height:400px;
+}
+.resize3 {
+max-width:100%;
+max-height:auto;
+}
+
+.resize4 {
+width:400px;
+height:600px;
+}
+.resize3 {
+max-width:100%;
+max-height:auto;
+}
+
+
 /* Logo Button Size */
 .LogoSize {
     display: inline-block;
-    height: 41px;
+    height: 31px;
     padding: 10
     margin: 0;
     vertical-align: top;
-    width: 41px;
+    width: 31px;
 	 border:none;
 	 background-color:black
 }
@@ -99,15 +127,15 @@ max-height:auto;
 /* Logo Picture Size */
 #CompanyLogos img {
     display:block;
-    height:40px;  
-    width:40px;
+    height:30px;  
+    width:30px;
 }
 
 /* Paragraph Settings */
 p {
     color:white;
-	 margin-left:15em;
-	 margin-right:15em;
+	 margin-left:20em;
+	 margin-right:20em;
 	 line-height: 1.5
 }
 
@@ -128,3 +156,4 @@ p {
 	width:750px;
 	height:100px;
 }
+
