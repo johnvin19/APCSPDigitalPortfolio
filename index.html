@@ -10,9 +10,25 @@
 					<link href="unit5.html"/><br>
 <img src="https://static.wixstatic.com/media/988aea_cf0fdc3187664be9a077ac0e8f582071~mv2.jpeg/v1/fill/w_54,h_54,al_c,q_80,usm_0.66_1.00_0.01/Free_Sample_By_Wix.webp" style="position:relative; left:25px; top:10px; width:20 height:20">
 				
-			   <div id="returnbutton">
-<button class="returnbutton">&uarr;</button>
-</div>
+			   
+
+var returnbutton = document.getElementById("returnbutton");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    returnbutton.style.display = "block";
+  } else {
+    returnbutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}   
+			   
 			   
 			   <center>
 					
