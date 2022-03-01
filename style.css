@@ -167,5 +167,6 @@ p {
    position: fixed;
    bottom: -4px;
    right: 10px;
+   font-size: 18px;
    font-weight:bolder;
 }
