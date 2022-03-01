@@ -2,7 +2,24 @@
 <html>
 	
 		<div class="Black">
-			
+				<button onclick="topFunction()" id="returnbutton">&#8679;</button>		   
+<script>
+var returnbutton = document.getElementById("returnbutton");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    returnbutton.style.display = "block";
+  } else {
+    returnbutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}   </script>
 		   <head>
             <title>Digital Portfolio</title>
             <link href="style.css" rel="stylesheet" type="text/css"/>
