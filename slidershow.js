@@ -1,8 +1,8 @@
 	var slideIndex = 1;
 	var theSlide = 1;
 sessionStorage.setItem("theSlide", slideIndex);
-sessionStorage.getItem("theSlide");
-showSlides(theSlide);
+slideIndex = sessionStorage.getItem("theSlide");
+showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
