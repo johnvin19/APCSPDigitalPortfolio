@@ -1,5 +1,6 @@
 	var slideIndex = 1;
 showSlides(slideIndex);
+	var theslide = 1;
 sessionStorage.setItem("theslide", slideIndex);
 sessionStorage.getItem("theslide") = slideIndex;
 
